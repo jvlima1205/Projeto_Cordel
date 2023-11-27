@@ -7,4 +7,52 @@
 :root{
     --fontTitulo : 'Passion One', sans-serif;
     --fontTexto : 'Sriracha', sans-serif;
+    --fontPadrao : Arial, Helvetica, sans-serif;
 }
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    
+    padding: 10px;
+    margin: -8px;
+}
+
+header>h1{
+    font-family: var(--fontTitulo);
+    font-weight: lighter;
+    font-size: 10vw;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+header>p{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-family: var(--fontPadrao);
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+/* ----------------------------------------------------------------- */
+
+main>pre{
+    font-family: var(--fontTexto);
+    line-height: 100px;
+
+    font-size: 3.5vw;
+    margin-left: -10%;
+    margin-top: 80px;
+}
+
