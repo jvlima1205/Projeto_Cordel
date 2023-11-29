@@ -49,16 +49,39 @@ header a:hover {
 
 /* ----------------------------------------------------------------- */
 
-main pre {
+main p {
     font-family: var(--fontTexto);
     font-size: 3.5vw;
-    margin-left: -10%;
     margin-top: 80px;
+    width: 50%;
+    margin-left: 50px;
+    
 }
 
-.fundo {
-    background: gray url(../imagens/background001.jpg) top left / cover no-repeat fixed;
-    margin: 0px -8px;
-    padding-left: 20px;
+.fundo#img01 {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
+    background: gray url(../imagens/background001.jpg) center right / cover no-repeat fixed;
+    margin: -8px;
     color: white;
+}
+.fundo#img02 {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
+    background: gray url(../imagens/background002.jpg) top left / cover no-repeat fixed;
+    margin: -8px;
+    color: white;
+}
+
+.fundo p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 45%;
+    padding: 20px;
+
+    margin-left: 50px;
+
+}
+
+.normal{
+    white-space: pre;
+    margin: 20px -100px;
 }
