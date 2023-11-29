@@ -47,31 +47,33 @@ header a:hover {
     text-decoration: underline;
 }
 
-/* ----------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
 
 main p {
     font-family: var(--fontTexto);
     font-size: 3.5vw;
-    margin-top: 80px;
+    margin-top: 20px;
     width: 50%;
-    margin-left: 50px;
+    margin-left: 70px;
     
 }
 
-.fundo#img01 {
+
+
+div.fundo#img01 {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
     background: gray url(../imagens/background001.jpg) center right / cover no-repeat fixed;
     margin: -8px;
     color: white;
 }
-.fundo#img02 {
+div.fundo#img02 {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.445);
     background: gray url(../imagens/background002.jpg) top left / cover no-repeat fixed;
     margin: -8px;
     color: white;
 }
 
-.fundo p{
+div.fundo p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.411);
     width: 45%;
@@ -81,7 +83,30 @@ main p {
 
 }
 
-.normal{
-    white-space: pre;
-    margin: 20px -100px;
+
+/* --------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: -8px;
+}
+
+footer>p{
+    font-family: var(--fontPadrao);
+    font-size: 1.2em;
+    
+    padding: 10px;
+    margin-bottom: -9px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
